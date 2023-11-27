@@ -1,0 +1,28 @@
+O que é react: 
+- Front-end framework
+- A ideia é quebrar o código em diferentes componentes e combinar esses componentes para criar sua aplicação
+- React é uma ferramenta para escrever o front-end de forma mais fácil. (em teoria kkk)
+
+Como pensar em react:
+
+-Pense em como você quer que sua aplicação final seja:
+    - Como será a UI
+    - Separe-a em diferentes "partes"
+    - Selecione cada parte separa e transforme-as em componentes
+    - "Declarative mindset" Diga ao código o que você quer
+
+-Criando uma aplicação em React:
+1) no terminal: npm create vite@latest: ele vai pedir o nome do projeto, se você inserir apenas um ponto ele vai criar no folder que você está
+2) Selecione React e depois a variante (JavaScript ou TypeScript)
+3) npm install e npm run dev para instalar e iniciar a aplicação
+4) no index.html (fora da src) é onde o script está sendo importado, ou seja, esse arquivo é importante.
+5) Dentro da src temos o main.jsx que faz o link entre o index.html e o código React
+6) tudo dentro da aplicação será renderizado na div root (do index.html)
+
+Entendendo a ideia de componentes:
+- Olhando em src > app.tsx temos uma função que está sendo exportada
+- Uma função em React que inicia com letra maiúscula é um COMPONENTE react
+- Componentes retornam JSX
+- Componentes quebram partes individuais da sua aplicação
+- Para começar, vamos colocar toda aplicação em um componente e depois separamos ela conforme seja necessário para a aplicação
+
